@@ -1,6 +1,6 @@
 DOCKERHOST = docker.io
 DOCKERORG = aerogearcatalog
-IMAGENAME = android-app-apb
+IMAGENAME = cordova-app-apb
 TAG = latest
 USER=$(shell id -u)
 PWD=$(shell pwd)

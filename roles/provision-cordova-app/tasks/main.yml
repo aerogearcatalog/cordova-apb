@@ -23,6 +23,6 @@
       data:
         name: "{{ appName }}"
         displayName: "{{ appName }}"
-        clientType: "android"
+        clientType: "cordova"
         apiKey: "{{ api_key.stdout }}"
         description: "{{ app_description }}"

@@ -1,8 +1,8 @@
-# Android App APB
+# Cordova App APB
 
-[![](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)](https://hub.docker.com/r/aerogearcatalog/android-app-apb/)
-[![Docker Stars](https://img.shields.io/docker/stars/aerogearcatalog/android-app-apb.svg)](https://registry.hub.docker.com/v2/repositories/aerogearcatalog/android-app-apb/stars/count/)
-[![Docker pulls](https://img.shields.io/docker/pulls/aerogearcatalog/android-app-apb.svg)](https://registry.hub.docker.com/v2/repositories/aerogearcatalog/android-app-apb/)
+[![](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)](https://hub.docker.com/r/aerogearcatalog/cordova-app-apb/)
+[![Docker Stars](https://img.shields.io/docker/stars/aerogearcatalog/cordova-app-apb.svg)](https://registry.hub.docker.com/v2/repositories/aerogearcatalog/cordova-app-apb/stars/count/)
+[![Docker pulls](https://img.shields.io/docker/pulls/aerogearcatalog/cordova-app-apb.svg)](https://registry.hub.docker.com/v2/repositories/aerogearcatalog/cordova-app-apb/)
 [![License](https://img.shields.io/:license-Apache2-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0)
 
 ## Local Development
