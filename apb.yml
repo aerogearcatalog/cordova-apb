@@ -13,7 +13,11 @@ plans:
     description: Sets up a Cordova App representation.
     free: True
     metadata: {}
-    parameters: 
+    parameters:
+    - name: appIdentifier
+      required: True
+      type: string
+      title: Package Name     
     - name: appName
       required: True
       default: myapp
