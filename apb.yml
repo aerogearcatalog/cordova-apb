@@ -14,12 +14,12 @@ plans:
     free: True
     metadata: {}
     parameters:
-    - name: appIdentifier
-      required: True
-      type: string
-      title: Package Name     
     - name: appName
       required: True
       default: myapp
       type: string
-      title: your new apps name
+      title: Application Name
+    - name: appIdentifier
+      required: True
+      type: string
+      title: Package Name

@@ -1,3 +1,3 @@
 # Creates a cordova app representation using the mobile cli
 - name: "Create cordova app represenation"
-  shell: mobile create client {{ appName }} android {{ appIdentifier }} --namespace={{ namespace }}
+  shell: mobile create client {{ appName }} cordova {{ appIdentifier }} --namespace={{ namespace }}
