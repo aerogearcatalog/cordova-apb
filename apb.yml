@@ -7,7 +7,8 @@ tags:
   - mobile
 metadata:
   displayName: Cordova App
-  console.openshift.io/iconClass: icon icon-cordova
+  console.openshift.io/iconClass: font-icon icon-cordova
+  imageUrl: "images/logos/cordova.png"
 plans:
   - name: default
     description: Sets up a Cordova App representation.
