@@ -3,12 +3,11 @@
   when: _apb_service_instance_id is defined
   register: service_instance_name
 
-# Creates a cordova app representation using the mobile cli
-- name: "Create cordova app represenation"
-  shell: mobile create client {{ appName }} cordova {{ appIdentifier }} --namespace={{ namespace }}
+- name: "Create Cordova app representation yaml file"
+  template:
+    src: mobile-client.yml.j2
+    dest: /tmp/mobile-client.yaml
 
-- name: Annotate client {{ appName }}-cordova
-  shell: "oc annotate mobileclient {{ appName }}-cordova {{ item }} --overwrite=true -n {{ namespace }}"
-  ignore_errors: no
-  with_items:
-    - service_instance_name={{ service_instance_name.stdout }}
+- name: Create Cordova Mobile Client
+  command: "oc create -f /tmp/mobile-client.yaml -n {{ namespace }}"
+  changed_when: false
