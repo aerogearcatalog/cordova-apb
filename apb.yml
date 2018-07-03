@@ -9,7 +9,7 @@ metadata:
   displayName: Cordova App
   console.openshift.io/iconClass: font-icon icon-cordova
   imageUrl: "images/logos/cordova.png"
-  documentationUrl: "http://docs.aerogear.org"
+  documentationUrl: "http://docs.aerogear.org/external/apb/cordova-app.html"
   serviceName: cordova-app
 plans:
   - name: default
